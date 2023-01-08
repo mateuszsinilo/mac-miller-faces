@@ -8,6 +8,7 @@ export const Header = () => {
             <Text>May 11, 2014</Text>
            <ToggleSwitch />
        </Flex>
+
     );
 };
 
