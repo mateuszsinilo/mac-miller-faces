@@ -7,8 +7,13 @@ import MainQuote from '../components/common/mainQuote';
 export const LostPage = () => {
     return (
         <>
-        <Header isHomePage={false}/>
-        <MainQuote quote='I just like to sing for people who have lost love.' image='lostQuote.png'/>
-        </>
+            <Flex justifyContent='center' alignItems='center' flexDirection='column'>
+            <Header isHomePage={false}/>
+                <Flex h='100vh'>
+                <MainQuote quote='I just like to sing for people who have lost love.' image='lostQuote.png'/>
+                </Flex>
+            </Flex>
+
+            </>
 );
 };

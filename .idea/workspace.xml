@@ -29,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mateuszsinilo/codingprojects/mac-miller-faces/public/assets/images",
+    "last_opened_file_path": "/Users/mateuszsinilo/codingprojects/mac-miller-faces/public",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
@@ -41,6 +41,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
     </key>
   </component>
@@ -58,7 +59,7 @@
       <workItem from="1673203559307" duration="652000" />
       <workItem from="1673204230368" duration="6557000" />
       <workItem from="1673224251760" duration="1297000" />
-      <workItem from="1673375104679" duration="8152000" />
+      <workItem from="1673375104679" duration="11309000" />
     </task>
     <servers />
   </component>

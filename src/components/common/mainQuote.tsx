@@ -19,8 +19,13 @@ export const MainQuote = ({quote, image} : IMainQuote) => {
                <Text fontSize='26px'>an audiovisual presentation</Text>
            </Flex>
        </Flex>
-            <Flex w='100%' justifyContent='center' position='absolute' top='92vh' right='0'>
-                <ScrollDown />
+            <Flex w='100%' justifyContent='center' position='absolute' top='92vh' right='0' alignItems='center'>
+                <Flex>
+                    <ScrollDown />
+                </Flex>
+            </Flex>
+            <Flex w='100%' position='absolute' top='65vh' left='70vw'>
+                    <Image src='assets/images/faces-miller-circle.png' w='30%'/>
             </Flex>
         </Flex>
     );
