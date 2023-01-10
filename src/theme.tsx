@@ -16,10 +16,6 @@ const theme = extendTheme({
         initialColorMode: 'dark',
         useSystemColorMode: false,
     },
-    fonts: {
-        heading: 'Dozer One',
-        body: 'Dozer One',
-    },
     styles: {
         global: {
             'html, body': {

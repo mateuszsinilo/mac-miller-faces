@@ -13,10 +13,12 @@ import theme from "./theme"
 import MainFeel from "./components/MainFeel/mainFeel"
 import { HomePage } from "./pages/homePage"
 import { Main } from "./components/Main/main"
+import { Fonts } from "./fonts"
 
 
 export const App = () => (
   <ChakraProvider resetCSS theme={theme}>
+    <Fonts />
      <Main />
   </ChakraProvider>
 )
