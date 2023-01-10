@@ -3,6 +3,7 @@ import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import { App } from "./App"
 import { BrowserRouter } from 'react-router-dom';
+import theme from "./theme";
 
 
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(container)
 
 root.render(
   <React.StrictMode>
-    <ColorModeScript />
+    <ColorModeScript initialColorMode={theme.config.initialColorMode}/>
       <App />
   </React.StrictMode>,
 )

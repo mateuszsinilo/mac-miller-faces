@@ -12,6 +12,10 @@ const breakpoints = createBreakpoints({
 });
 
 const theme = extendTheme({
+    config: {
+        initialColorMode: 'dark',
+        useSystemColorMode: false,
+    },
     fonts: {
         heading: 'Dozer One',
         body: 'Dozer One',

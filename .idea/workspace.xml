@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe4706c-447b-421e-9657-7b82ea201b4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColorModeSwitcher.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test-utils.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/mateuszsinilo/codingprojects/mac-miller-faces/public/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -61,6 +57,8 @@
       <workItem from="1673203466225" duration="85000" />
       <workItem from="1673203559307" duration="652000" />
       <workItem from="1673204230368" duration="6557000" />
+      <workItem from="1673224251760" duration="1297000" />
+      <workItem from="1673375104679" duration="6797000" />
     </task>
     <servers />
   </component>
