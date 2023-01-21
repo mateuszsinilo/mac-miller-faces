@@ -1,31 +1,27 @@
 import { extendTheme } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 import { Colors } from './colors';
-import {mode} from '@chakra-ui/theme-tools'
 
-const breakpoints = createBreakpoints({
-    sm: '40em',
-    md: '52em',
-    lg: '64em',
-    xl: '80em',
-});
 
-const theme = extendTheme({
+const themeDark = extendTheme({
     config: {
         initialColorMode: 'dark',
         useSystemColorMode: false,
     },
+    colors: {
+        brandMain: '#FFC133',
+        textMain: '#3478B9',
+    },
     styles: {
-        global: (props: any) => ({
-            body: {
-                backgroundColor: mode( '#3478B9', '#FFC133')(props),
-                color: mode('#FFC133', '#3478B9') (props),
-                fontFamily: 'Dozer One',
+        global: {
+            'html, body': {
                 margin: 0,
-                padding: 0
+                padding: 0,
+                fontFamily: 'Dozer One',
+                backgroundColor: Colors.brandMain,
+                overflowX: 'hidden',
+                color: Colors.textMain,
             },
-
-        }),
             a: {
                 textDecoration: 'none',
                 color: 'white',
@@ -56,7 +52,8 @@ const theme = extendTheme({
                 boxShadow: 'none !important',
                 outline: 'auto !important',
             },
+        },
     },
 });
 
-export default theme;
+export default themeDark;

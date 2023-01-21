@@ -1,12 +1,17 @@
 import { Flex, Image, Text, Button} from '@chakra-ui/react';
 import React from 'react';
 import ScrollDown from '../../icons/scrollDown';
+import {useColorMode} from '@chakra-ui/color-mode'
+
 
 interface IMainQuote {
     quote: string;
     image: string
 }
 export const MainQuote = ({quote, image} : IMainQuote) => {
+
+    const { colorMode, setColorMode, toggleColorMode } = useColorMode()
+
     return (
         <Flex justifyContent='center' paddingX='64px' flexDirection='column'>
         <Flex w='100%' paddingX='40px' position='relative' flexDirection='column'>
@@ -21,7 +26,7 @@ export const MainQuote = ({quote, image} : IMainQuote) => {
        </Flex>
             <Flex w='100%' justifyContent='center' position='absolute' top='92vh' right='0' alignItems='center'>
                 <Flex>
-                    <ScrollDown />
+                    <ScrollDown color={colorMode === 'dark' ? '#3478B9' : '#FFC133'}/>
                 </Flex>
             </Flex>
             <Flex w='100%' position='absolute' top='65vh' left='70vw'>
